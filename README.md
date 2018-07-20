@@ -5,7 +5,9 @@ Objective: To have a docker container encapsulating EyeWitness for easy portabil
 
 ## Reference(s):
   https://github.com/ChrisTruncer/EyeWitness
+  
   https://www.christophertruncer.com/eyewitness-2-0-release-and-user-guide/
+  
   https://hub.docker.com/r/whiteoaksecurity/docker-eyewitness/~/dockerfile/
     
 ### build info
