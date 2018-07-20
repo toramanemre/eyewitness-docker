@@ -1,5 +1,5 @@
-# eyewitness-ubuntu
-Ubuntu Docker EyeWitness Container
+# eyewitness-docker
+An EyeWitness Docker Container leveraging Ubuntu
 
 Objective: To have a docker container encapsulating EyeWitness for easy portability and usage.
 
