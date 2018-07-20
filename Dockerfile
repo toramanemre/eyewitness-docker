@@ -12,5 +12,3 @@ RUN ./setup.sh
 RUN mkdir /tmp/EyeWitness
 WORKDIR /tmp/EyeWitness/
 ENTRYPOINT ["python", "/EyeWitness/EyeWitness.py", "--no-prompt"]
-#ENTRYPOINT ["/bin/bash"]
-##potential usage: docker container run --rm -it -v ~/EyeWitness:/tmp/EyeWitness/ eyewitness --headless --single http://www.google.com
