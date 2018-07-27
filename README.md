@@ -13,9 +13,13 @@ Objective: To have a docker container encapsulating EyeWitness for easy portabil
 ### build info
 `docker build --tag eyewitness .`
 
+Also available pre-built from docker hub
+`docker pull ly4e/eyewitness-docker`
+
+
 ## Usage Example(s):
 ```
-docker container run --rm -it -v ~/EyeWitness:/tmp/EyeWitness/ eyewitness --headless --single http://www.google.com
+docker container run --rm -it -v $(pwd)/EyeWitness:/tmp/EyeWitness/ [docker_image_name] --headless --single http://www.google.com
 
-docker container run --rm -it -v $(pwd):/tmp/EyeWitness/ eyewitness --headless -f /tmp/EyeWitness/file_of_urls.txt
+docker container run --rm -it -v $(pwd)/EyeWitness:/tmp/EyeWitness/ [docker_image_name] --headless -f /tmp/EyeWitness/file_of_urls.txt
 ```
