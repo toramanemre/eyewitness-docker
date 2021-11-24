@@ -27,4 +27,5 @@ docker container run --rm -it -v $(pwd)/EyeWitness:/tmp/EyeWitness/ [docker_imag
 
 ### Version history:
 version: 0.1.0 historical original image years old
+
 version: 1.0.0 updated image similar build process
