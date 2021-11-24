@@ -4,7 +4,8 @@ An EyeWitness Docker Container leveraging Ubuntu
 Objective: To have a docker container encapsulating EyeWitness for easy portability and usage.
 
 ## Reference(s):
-  https://github.com/ChrisTruncer/EyeWitness
+  https://github.com/ChrisTruncer/EyeWitness  --> 
+  https://github.com/FortyNorthSecurity/EyeWitness
   
   https://www.christophertruncer.com/eyewitness-2-0-release-and-user-guide/
   
