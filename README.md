@@ -12,14 +12,13 @@ Objective: To have a docker container encapsulating EyeWitness for easy portabil
 
 ---
 
-### historic  build info for tag 0.1.0
 `docker build --tag eyewitness .`
 
 Also available pre-built from docker hub
 `docker pull ly4e/eyewitness-docker:0.1.0`
 
 
-## Usage Example(s) for tag 0.1.0:
+## Usage Example(s):
 ```
 docker container run --rm -it -v $(pwd)/EyeWitness:/tmp/EyeWitness/ [docker_image_name] --headless --single http://www.google.com
 
